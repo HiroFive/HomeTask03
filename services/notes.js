@@ -1,4 +1,4 @@
-import notes from '../notesData.js';
+import notes from '../repositories/notesData.js';
 import { finedEditRow } from '../helpers/notes.js';
 
 export const createNewNotes = (req, res) => {

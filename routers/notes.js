@@ -7,10 +7,10 @@ import {
 	deleteNote,
 	editNote,
 	getStatistics,
-} from '../repositories/notes.js';
+} from '../services/notes.js';
 
-import {notesSchema, createNewNotesSchema} from '../validations/notesValidation.js';
-import validation from '../middlewares/validationMiddleware.js';
+import {notesSchema, createNewNotesSchema} from '../services/validations/notesValidation.js';
+import validation from '../services/middlewares/validationMiddleware.js';
 
 const router = express.Router();
 
