@@ -1,10 +1,9 @@
 import notes from '../notesData.js';
-import { v4 as uuidv4 } from 'uuid';
 import { finedEditRow } from '../helpers/notes.js';
 
 export const createNewNotes = (req, res) => {
 	const newNote = req.body;
-	notes.push({ ...newNote, id: uuidv4() });
+	notes.push({ ...newNote, id: notes.length+1 });
 	res.send('Note has been added');
 };
 
