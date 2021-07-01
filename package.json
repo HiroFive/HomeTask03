@@ -1,0 +1,29 @@
+{
+  "name": "hometask03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiroFive/HomeTask03.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HiroFive/HomeTask03/issues"
+  },
+  "homepage": "https://github.com/HiroFive/HomeTask03#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.9"
+  }
+}
